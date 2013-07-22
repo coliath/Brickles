@@ -1,0 +1,144 @@
+html
+{
+    margin:0;
+}
+body
+{
+    margin:0;
+    font-family: cursive;
+    background-color: #c2e7f5;
+}
+canvas
+{ 
+    border-top: 1px solid white;
+}
+#gameContainer
+{
+    position: relative;
+    width: 500px;
+    height: 362px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    text-align: center;
+    border: 1px solid white;
+}
+#title
+{
+    margin:0;
+    padding: 5px;
+    background-color: #2ECC71;
+}
+#banner
+{
+    display: none;
+}
+#bannerBack
+{
+    position: absolute;
+    height: 362px;
+    line-height: 362px;
+    top:0px;
+    width:500px;
+    text-align: center;
+    background-color: #E74C3C;
+    opacity: .9; 
+}
+#bannerText
+{
+    position: absolute;
+    height: 362px;
+    line-height: 362px;
+    top:0px;
+    width:500px;
+    text-align: center;
+    font-size: 350%;
+    font-family: cursive;
+    border-bottom: 1px solid white;
+}
+#gameInfo
+{
+    position: absolute;
+    left: -102px;
+    top: -1px;
+    padding-bottom: 2px;
+    border: 1px solid white;
+    font-size: 200%;
+    background: #8E44AD;
+    text-align: center;
+    width: 100px;
+}
+#gameInfo p
+{
+    margin: 0;
+    padding: 9px;
+}
+#gameInfo span
+{
+    color: white;
+    font-family: impact;
+}
+#leaderBoard
+{
+    color: white;
+    position: absolute;
+    right: -122px;
+    top: -1px;
+    padding-bottom: 2px;
+    border: 1px solid white;
+    font-size: 200%;
+    background: #34495E;
+    text-align: center;
+    width: 120px;
+}
+#leaderBoard span
+{
+    font-size: 65%;
+    margin: 5px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+#scoreList
+{
+    overflow-y: auto;
+    height: 309px;
+}
+.player
+{
+    font-size:15px;
+    font-family: Rockwell;
+    color: #BDC3C7;
+    margin:0;
+    padding:3px;
+    margin-left: 5px;
+    text-align: left;
+}
+.playerScore
+{
+    font-size: 15px;
+    font-family:rockwell;
+    margin:0;
+    padding:0;
+}
+.btn
+{
+    background-color: #F1C40F;
+    padding: 7px;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    margin:0;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    font-size: 110%;
+    font-weight: bold;
+    border: 1px solid white;
+    border-top: none;
+}
+.btn:hover
+{
+    cursor: pointer;
+    font-size: 130%;
+}
